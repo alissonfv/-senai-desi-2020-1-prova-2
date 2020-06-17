@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="shortcut icon" href="img/logo_menor.png">
+    <link rel="stylesheet" href="./css/css_hospital.css">
+    <title>Hospital Vieira</title>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container">
+                <a href="index.html"><img class="logo_barra" src="img/logo.png"></a>
+                <ul class="navbar-nav mr-auto nav justify-content-end w-100">
+                    <li class="nav-item">
+                        <a href="corpo_medico.html" class="nav-link font-weight-bolder"> <i class="fas fa-users"></i>
+                            Corpo Médico </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="convenio.html" class="nav-link font-weight-bolder"><i class="fas fa-heartbeat"></i> Convênios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="horario_atendimento.html" class="nav-link font-weight-bolder"> <i class="fas fa-list"></i> Horário e Atendimento </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="trabalhe_conosco.html" class="nav-link font-weight-bolder"> <i
+                                class="fas fa-briefcase"></i> Trabalhe Conosco </a>
+                    </li>
+                        <a href="ajuda.html" class="nav-link  active font-weight-bolder " alt="Ajuda"> <i class="far fa-question-circle"></i> </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="mt-5">
+		<div class="container">
+            <h2>Nos envie sua dúvida:</h2>
+            <br>
+                <form>
+                    <div class="form-group form-row">
+                        <div class="col">
+                            <label for="nome"><i class="fas fa-user"></i> Nome</label>
+                            <input type="text" class="form-control" placeholder="Digite seu Nome:" id="nome">
+                        </div>
+                        <div class="col">
+                            <label for="email"><i class="fas fa-envelope"></i> E-mail</label>
+                            <input type="email" class="form-control"  placeholder="Digite seu s-mail:" id="email" >
+                        </div>
+                    </div>
+                    <div class="form-group form-row">
+                        <div class="col-3">
+                            <label for="duvida"><i class="fas fa-question"></i> Qual sua dúvida:</label>
+                            <textarea id="duvida" rows="8" cols="30" placeholder="Digite sua Dúvida:"></textarea>   
+                        </div>
+                    </div>
+                  <br>
+				<button type="submit" class="btn btn-info"> <i class="fas fa-paper-plane"></i> Enviar</button>
+                <button type="reset" class="btn btn-danger"> <i class="fas fa-trash"></i> Cancelar</button>
+            </form>
+		</div>
+	</main>
+    <br><br>
+<footer class="page-footer">
+    <div class="container text-center text-md-left">
+        <div class="row">
+            <div class="col-md-7 mt-md-0 mt-4">
+                <h5 class="text-uppercase text-justify font-weight-bolder">Valores</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec risus ipsum. 
+                    <br>Nulla rutrum non velit vitae dapibus. </p>
+            </div>
+            <hr class="clearfix w-100 d-md-none pb-3">
+            <div class="col-md-3 mb-md-0 mb-4 ">
+
+                
+                <h5 class="text-uppercase text-justify font-weight-bolder">Menu</h5>
+
+                    <ul class="navbar-nav  ">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link cor_cinza"> <i class="fas fa-home"></i> Inicio </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="corpo_medico.html" class="nav-link cor_cinza"> <i class="fas fa-users"></i> Corpo Médico </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="horario_atendimento.html" class="nav-link cor_cinza"> <i class="fas fa-list"></i> Horário e Atendimento </a>
+                        </li>
+                        <li class="nav-item">
+                        <a href="convenio.html" class="nav-link cor_cinza"><i class="fas fa-heartbeat"></i> Convênios</a>
+                    </li>
+                    </ul>
+
+            </div>
+            <div class="col-md-2 mb-md-0 mb-1 ">
+
+                
+                <h5 class="text-uppercase text-justify font-weight-bolder">Redes Sociais</h5>
+
+                    <ul class="navbar-nav  ">
+                        <li  class="nav-item">
+                            <a href="https://www.instagram.com/?hl=pt-br" class="nav-link cor_cinza"><i class="fab fa-instagram"></i> Instagram</a>
+                        </li>
+                        <li  class="nav-item">
+                            <a href="https://www.facebook.com/" class="nav-link cor_cinza"><i class="fab fa-facebook"></i> Facebook</a>
+                        </li>
+                        <li  class="nav-item">
+                            <a href="https://www.youtube.com/?hl=pt&gl=BR" class="nav-link cor_cinza"><i class="fab fa-youtube"></i> Youtube</a>
+                        </li>
+                        <li  class="nav-item">
+                            <a href="https://www.linkedin.com/" class="nav-link cor_cinza"><i class="fab fa-linkedin"></i> Linkedin</a>
+                        </li>
+                    </ul>
+            </div>     
+        </div>
+    </div>
+    <div class="footer-copyright text-center py-1"><br>Rua Qualquer, Florianópolis, Santa Catarina, Brasil, 88025-345. Telefone: (48) 3369-4567
+      </div>
+</footer>
+    <script src="js/plugins/jquery-3.5.1.min.js"></script>
+    <script src="js/plugins/bootstrap.min.js"></script>
+    <script src="js/plugins/jquery.mask.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
